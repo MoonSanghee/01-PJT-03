@@ -5,9 +5,9 @@ sys.stdin = open("_직사각형길이찾기.txt")
 # 리스트에 입력받은 세 값을 넣고 if문을 통해 2값이 같은 경우와 세 값이 같은 경우를 비교하여
 # 주려고했으나 시간 초과가 나와서 딕셔너리에 값을 넣고 입값이 홀수로 나오는 변을 찾아 출력해주는 방법으로 답을 구하였습니다.
 
-test_case = int(1, input() + 1)
+test_case = int(input())
 
-for test_num in range(test_case):
+for test_num in range(1, test_case + 1):
     each_line = list(map(int, input().split()))
     # 각 변을 리스트로 저장하였습니다.
     numbers = dict()
